@@ -16,12 +16,13 @@ internal partial class PigeonHold(IMessageCenter messageCenter, IOptions<PigeonO
 {
     #region IPigeonHold
 
-    public Task<Output> DeliverAsync<TMessage>(TMessage message, CancellationToken cancellationToken = default) 
+    public async Task<Output> DeliverAsync<TMessage>(TMessage message, CancellationToken cancellationToken = default) 
         where TMessage : IMessage
     {
         if (!options.Value.UseBackgroundMessaging)
         {
-            return messageCenter.ReceiveAsync(message, cancellationToken);
+            await messageCenter.ReceiveAsync(message, cancellationToken);
+            return Out.Success();
         }
 
         _ = Task.Run(async () =>
@@ -40,7 +41,7 @@ internal partial class PigeonHold(IMessageCenter messageCenter, IOptions<PigeonO
             }
         }, CancellationToken.None);
 
-        return Task.FromResult(Out.Success());
+        return Out.Success();
     }
 
     public Task<Output> ScheduleAsync<TMessage>(TMessage message, TimeSpan delay, CancellationToken cancellationToken = default) 

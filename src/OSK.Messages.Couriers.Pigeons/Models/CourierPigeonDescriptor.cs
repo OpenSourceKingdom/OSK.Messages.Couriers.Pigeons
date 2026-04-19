@@ -1,6 +1,5 @@
 ﻿using OSK.Messages.Abstractions;
 using OSK.Messages.Couriers.Pigeons.Ports;
-using OSK.Messages.Messaging.Models;
 using System;
 
 namespace OSK.Messages.Couriers.Pigeons.Models;

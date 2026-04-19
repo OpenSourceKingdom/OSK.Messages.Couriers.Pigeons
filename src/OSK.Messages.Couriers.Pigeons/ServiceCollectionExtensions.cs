@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using OSK.Messages.Abstractions;
 using OSK.Messages.Couriers.Pigeons.Internal.Services;
 using OSK.Messages.Couriers.Pigeons.Models;
 using OSK.Messages.Couriers.Pigeons.Options;
 using OSK.Messages.Couriers.Pigeons.Ports;
-using OSK.Messages.Messaging;
 using System;
 
 namespace OSK.Messages.Couriers.Pigeons;

@@ -9,7 +9,6 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
-using OSK.Messages.Messaging.Ports;
 
 namespace OSK.Messages.Couriers.Pigeons.Internal.Services;
 

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>12</LangVersion>
+
+		<RepositoryUrl>https://github.com/OpenSourceKingdom/OSK.Messages.Couriers.Pigeons</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>CS1591</NoWarn>
+		<Authors>BlankDev117</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Description>Extends the OSK Courier pigeons to configure and run as a standalone local messaging system using the courier pigeons</Description>
+		<PackageTags>OpenSourceKingdom, OpenSource, messaging, event, bus, delivery, message, courier, dispatch, pigeon, local, device, standalone</PackageTags>
+		<Title>OSK.Extensions.Couriers.Pigeons.Messaging</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="OSK.Messages.Messaging" Version="0.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\OSK.Messages.Couriers.Pigeons\OSK.Messages.Couriers.Pigeons.csproj" />
+	</ItemGroup>
+
+</Project>

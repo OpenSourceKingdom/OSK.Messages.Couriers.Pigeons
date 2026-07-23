@@ -20,5 +20,5 @@ public interface IPigeonMessagingConfigurator
     /// </summary>
     /// <param name="optionConfigurator">The configuration to apply</param>
     /// <returns>The configurator for chaining</returns>
-    IPigeonMessagingConfigurator WithPigeonOptions(Action<PigeonOptions> optionConfigurator);
+    IPigeonMessagingConfigurator ConfigurePigeons(Action<PigeonOptions> optionConfigurator);
 }

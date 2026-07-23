@@ -23,7 +23,7 @@ internal class MessagingConfigurator : IPigeonMessagingConfigurator
         return this;
     }
 
-    public IPigeonMessagingConfigurator WithPigeonOptions(Action<PigeonOptions> optionsConfigurator)
+    public IPigeonMessagingConfigurator ConfigurePigeons(Action<PigeonOptions> optionsConfigurator)
     {
         if (optionsConfigurator is not null)
         {

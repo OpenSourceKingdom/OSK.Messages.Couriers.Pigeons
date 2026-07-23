@@ -16,7 +16,7 @@ public static class ServiceCollectionExtensions
     /// <param name="configurator">The configuration to use for the local messaging sytem</param>
     /// <returns>The services for chaining</returns>
     /// <exception cref="ArgumentNullException">If builder configuration is null</exception>
-    public static IServiceCollection AddLocalPigeonMessaging(this IServiceCollection services, Action<IPigeonMessagingConfigurator> configurator)
+    public static IServiceCollection AddPigeonMessaging(this IServiceCollection services, Action<IPigeonMessagingConfigurator> configurator)
     {
         if (configurator is null)
         {

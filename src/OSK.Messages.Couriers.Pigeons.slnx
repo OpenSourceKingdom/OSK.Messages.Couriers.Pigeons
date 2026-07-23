@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="OSK.Extensions.Couriers.Pigeons.Messaging/OSK.Extensions.Couriers.Pigeons.Messaging.csproj" Id="068ce96a-6aa8-41f9-8f07-fad54957aba6" />
+  <Project Path="OSK.Extensions.Messaging.Pigeons/OSK.Extensions.Messaging.Pigeons.csproj" Id="068ce96a-6aa8-41f9-8f07-fad54957aba6" />
   <Project Path="OSK.Messages.Couriers.Pigeons/OSK.Messages.Couriers.Pigeons.csproj" />
 </Solution>

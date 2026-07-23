@@ -3,8 +3,11 @@ using OSK.Messages.Couriers.Pigeons.Options;
 using OSK.Messages.Messaging.Ports;
 using System;
 
-namespace OSK.Extensions.Couriers.Pigeons.Messaging.Ports;
+namespace OSK.Extensions.Messaging.Pigeons.Ports;
 
+/// <summary>
+/// A configurator that is able to configure both the pigeon courier and messaging system
+/// </summary>
 [HexagonalIntegration(HexagonalIntegrationType.LibraryProvided)]
 public interface IPigeonMessagingConfigurator
 {

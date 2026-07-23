@@ -2,8 +2,9 @@
 using OSK.Messages.Couriers.Pigeons.Options;
 using OSK.Messages.Messaging.Ports;
 using System;
+using OSK.Extensions.Messaging.Pigeons.Ports;
 
-namespace OSK.Extensions.Couriers.Pigeons.Messaging.Ports;
+namespace OSK.Extensions.Messaging.Pigeons.Ports;
 
 [HexagonalIntegration(HexagonalIntegrationType.LibraryProvided)]
 public interface IPigeonMessagingConfigurator

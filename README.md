@@ -4,7 +4,7 @@ A local on-device message courier that integrates into the OSK.Messaging system,
 
 Messages can be sent either in-process or using a background thread if desired
 
-# OSK.Extensions.Couriers.Pigeons.Messaging
+# OSK.Extensions.Messaging.Pigeons
 
 Extends the OSK Messaging system with a built-in extension that combines the configuration setup for both a message center and pigeon courier into a single call. This is mostly for convenience when only requiring setup with a standalone local messaging system
 

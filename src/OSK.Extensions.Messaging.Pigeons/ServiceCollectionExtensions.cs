@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using OSK.Extensions.Couriers.Pigeons.Messaging.Internal.Services;
-using OSK.Extensions.Couriers.Pigeons.Messaging.Ports;
 using OSK.Messages.Couriers.Pigeons;
 using OSK.Messages.Messaging;
 using System;
+using OSK.Extensions.Messaging.Pigeons.Internal.Services;
+using OSK.Extensions.Messaging.Pigeons.Ports;
 
-namespace OSK.Extensions.Couriers.Pigeons.Messaging;
+namespace OSK.Extensions.Messaging.Pigeons;
 
 public static class ServiceCollectionExtensions
 {

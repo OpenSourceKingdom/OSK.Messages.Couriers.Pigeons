@@ -12,7 +12,7 @@
 		<NoWarn>CS1591</NoWarn>
 		<Authors>BlankDev117</Authors>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Description>Extends the OSK Courier pigeons to run as a standalone local messaging system</Description>
+		<Description>Extends the OSK Courier pigeons to configure and run as a standalone local messaging system using the courier pigeons</Description>
 		<PackageTags>OpenSourceKingdom, OpenSource, messaging, event, bus, delivery, message, courier, dispatch, pigeon, local, device, standalone</PackageTags>
 		<Title>OSK.Extensions.Couriers.Pigeons.Messaging</Title>
 	</PropertyGroup>
